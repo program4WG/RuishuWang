@@ -1,0 +1,31 @@
+function mainpro(N)
+global lambda
+lambda=100;
+tb=zeros(1,N);
+l2=zeros(1,N);
+l2b=zeros(1,N);
+tborder=zeros(1,N-1);
+l2order=zeros(1,N-1);
+l2border=zeros(1,N-1);
+for n=1:N
+    mypartition3(n);
+    GlobalA;
+    GlobalF;
+    boundary2;
+    Solve2;
+   % show;
+    [tb(n),l2(n),l2b(n)]=error2;
+end
+
+for i=1:N-1
+    tborder(i)=log2(tb(i)/tb(i+1));
+    l2order(i)=log2(l2(i)/l2(i+1));
+    l2border(i)=log2(l2b(i)/l2b(i+1));
+end
+
+l2
+l2order
+l2b
+l2bordertb
+tborder
+end

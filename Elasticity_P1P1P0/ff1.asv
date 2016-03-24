@@ -1,0 +1,4 @@
+function z=ff1(x,y)
+%z=-8;
+%z=-(3/2)*cos(x)*cos(y);
+end

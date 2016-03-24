@@ -1,0 +1,4 @@
+function v=u(x,y)
+%v=(x+y)^2;
+ % v=sin(x)*sin(y);
+end
