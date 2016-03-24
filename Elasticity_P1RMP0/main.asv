@@ -1,0 +1,9 @@
+function main
+global A F 
+bio_partition(1);
+    Global_stiffness_A;
+    ela_global_F;
+    ela_boundary;
+    %ela_show;
+    
+end

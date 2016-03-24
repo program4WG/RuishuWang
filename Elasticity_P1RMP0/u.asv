@@ -1,0 +1,6 @@
+function z=u
+global   lambda
+   %z=@(x,y)[sin(x)*sin(y),1];
+   %z=@(x,y)[(x+y)^2;(x-y)^2];
+   z=@(x,y)[sin(x)*sin(y)+1/lambda*x;];
+end
