@@ -1,4 +1,0 @@
-function v=u1(x,y)
-%v=(x-y)^2;
-%v=1;
-end
